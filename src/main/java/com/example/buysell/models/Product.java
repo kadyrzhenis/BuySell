@@ -38,6 +38,7 @@ public class Product {
      private User user;
      private LocalDateTime dateOfCreated;
 
+
      @PrePersist
      private void init() {
           dateOfCreated = LocalDateTime.now();
